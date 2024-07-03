@@ -1,0 +1,142 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom right, #a8afbb, #b5cbe2); /* Gradiente de azul */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #1e3c72; /* Azul escuro */
+    color: #fff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #2a5298; /* Azul claro */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #f0f0f0; /* Cinza claro */
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #d0d0d0; /* Cinza claro */
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298); /* Gradiente de azul */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #1e3c72; /* Azul escuro */
+    color: #fff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #2a5298; /* Azul claro */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #f0f0f0; /* Cinza claro */
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #d0d0d0; /* Cinza claro */
+}
+
+.card button {
+    background: linear-gradient(45deg, #b9c8e2, #09b4c0); /* Gradiente de azul */
+    color: #fff; /* Branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card button:hover {
+    background: linear-gradient(45deg, #09b4c0, #b9c8e2); /* Inverte o gradiente */
+    color: #fff; /* Mantém o branco */
+    transform: translateY(-2px); /* Leve movimento para cima */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.notification {
+    display: none; /* Escondido por padrão */
+    background-color: #2a5298; /* Azul claro */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    10%, 90% { opacity: 1; }
+}
+
+
+.notification {
+    display: none; /* Escondido por padrão */
+    background-color: #2a5298; /* Azul claro */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    10%, 90% { opacity: 1; }
+}
