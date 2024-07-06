@@ -102,38 +102,22 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.notification {
-    display: none; /* Escondido por padrão */
-    background-color: #2a5298; /* Azul claro */
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+#notification {
+    display: none;
     position: fixed;
     top: 20px;
     right: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 2;
+    background-color: #2a5298;
+    color: white;
+    padding: 16px;
+    z-index: 1000;
+    border-radius: 5px;
     animation: fadeInOut 3s ease-in-out;
 }
 
 @keyframes fadeInOut {
     0%, 100% { opacity: 0; }
     10%, 90% { opacity: 1; }
-}
-
-
-.notification {
-    display: none; /* Escondido por padrão */
-    background-color: #2a5298; /* Azul claro */
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-    animation: fadeInOut 3s ease-in-out;
 }
 
 @keyframes fadeInOut {
