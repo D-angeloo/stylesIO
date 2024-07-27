@@ -35,6 +35,22 @@ lista_carrinho.forEach((produto) => {
 const finalizar = document.querySelector("#finalizar");
 
 finalizar.addEventListener("click", () => {
+    let cart = []
+    const cartItems = cart.map(item => {
+        return(
+            `*${item.name}* *Quantidade:* (${item.quantity}) *Preço:* R$ ${item.price.toFixed(2)} | \n`
+        )
+    }).join('')
+    const lista_carrinho_trans = JSON.stringify(lista_carrinho)
+
+
+    
+    const message = encodeURIComponent(lista_carrinho_trans)
+    const phone = "85994203046"
+
+    window.open(`https://wa.me/${phone}?text=${message}`)
+
+    // updateCartModal() limpeza do carrinho
     alert("Compra finalizada com sucesso.");
     localStorage.clear();
     window.location.href = "/carrinho.html";
