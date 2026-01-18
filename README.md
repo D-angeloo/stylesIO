@@ -11,4 +11,4 @@ As principais implementações planejadas incluem:
 - **Integração com WhatsApp**: O sistema irá capturar os itens do carrinho armazenados no **LocalStorage** e enviá-los formatados diretamente para o vendedor, otimizando o fluxo de conversão.
 
 ---
-Em Desenvolvivemnto por Davi Angelo :)
+Em Desenvolvimento por Davi Angelo :)
